@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['-', 'Aplysina aerophoba', 'Asteroidea', 'Astropecten spp', 'Condylactis aurantiaca', 'Echinaster sepositus', 'Gobius sp', 'Holothuria tubulosa', 'Keratosa -cfr Sarcotragus-', 'Phaeophyceae -cfr Cystoseira-', 'Rifiuto', 'Sarcotragus spinosulus', 'Serranus scriba', 'Sphaerechinus granularis']
+
+roboflow:
+  workspace: streamer-workspace
+  project: streamer1-n4odk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/streamer-workspace/streamer1-n4odk/dataset/1
